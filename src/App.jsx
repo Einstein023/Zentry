@@ -1,9 +1,12 @@
+import Hero from "./components/Hero.jsx";
 
 function App(){
   return(
-    <>
-    <h1>Hello</h1>
-    </>
+    <main className='relative min-h-screen w-screen overflow-x-hidden'>
+      <Hero />
+
+      <section className="z-0 min-h-screen bg-blue-500"/>
+    </main>
   )
 }
 export default App
